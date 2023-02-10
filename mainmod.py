@@ -1,6 +1,6 @@
 import image
 
-img = image.Image('C:\\Users\\Asif\\Desktop\\pythonslides\\test.gif')
+img = image.Image('Asif\\Desktop\\pythonslides\\test.gif')
 win = image.ImageWin(img.getWidth(), img.getHeight())
 img.draw(win)
 img.setDelay(1,15)   # setDelay(0) turns off animation

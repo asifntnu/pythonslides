@@ -8,7 +8,7 @@ img.setDelay(1,15)   # setDelay(0) turns off animation
 for row in range(img.getHeight()):
     for col in range(img.getWidth()):
         p = img.getPixel(col, row)
-
+#make some changes
         newred = 255 - p.getRed()
         newgreen = 255 - p.getGreen()
         newblue = 255 - p.getBlue()

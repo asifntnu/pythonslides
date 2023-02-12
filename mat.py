@@ -4,6 +4,7 @@ import numpy as np
 plt.style.use('_mpl-gallery')
 
 # make data
+#th8 is test
 x = np.linspace(0, 10, 100)
 y = 4 + 2 * np.sin(2 * x)
 
